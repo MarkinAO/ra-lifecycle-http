@@ -1,0 +1,22 @@
+.messages-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+}
+
+.message {
+    max-width: 200px;
+    padding: 5px;    
+    border-radius: 10px;
+}
+
+.my-mes {
+    align-self: end;
+    border: 1px solid green;
+}
+
+.anyone-mes {
+    align-self: start;
+    border: 1px solid black;
+}
